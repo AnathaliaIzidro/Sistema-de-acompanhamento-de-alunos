@@ -1,0 +1,22 @@
+Versão 1.1
+Análise do Arquivo HTML
+Erros Identificados:
+ID duplicado em elementos <select> e <input>: O ID classLessons está duplicado, sendo usado tanto no formulário de adicionar turma quanto no elemento que exibe o número de aulas da turma. IDs devem ser únicos em um documento HTML.
+
+Elementos <li> faltando fechamento de tag: No JavaScript, há elementos <li> que não estão devidamente fechados.
+
+Elementos de modal fora do padrão de acessibilidade: O atributo aria-hidden é usado para esconder modais, mas deve ser atualizado dinamicamente quando o modal é aberto ou fechado.
+
+Análise do Arquivo CSS
+Erros Identificados:
+Atributo cursor: pointer; em elementos inadequados: cursor: pointer; deve ser usado apenas em elementos clicáveis, como botões ou links, e não em ícones ou elementos não interativos.
+
+CSS não otimizado para temas claros e escuros: Não há suporte para alternância de tema.
+
+Análise do Arquivo JavaScript
+Erros Identificados:
+Falta de validação nos formulários: Falta validação robusta nos formulários de adição de turma e aluno.
+
+Falta de manipulação de acessibilidade nos modais: Os modais são exibidos e ocultados sem alterar o valor do atributo aria-hidden.
+
+Uso de variáveis globais: Algumas variáveis estão globais quando deveriam ser limitadas ao escopo.
