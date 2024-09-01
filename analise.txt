@@ -11,8 +11,6 @@ Análise do Arquivo CSS
 Erros Identificados:
 Atributo cursor: pointer; em elementos inadequados: cursor: pointer; deve ser usado apenas em elementos clicáveis, como botões ou links, e não em ícones ou elementos não interativos.
 
-CSS não otimizado para temas claros e escuros: Não há suporte para alternância de tema.
-
 Análise do Arquivo JavaScript
 Erros Identificados:
 Falta de validação nos formulários: Falta validação robusta nos formulários de adição de turma e aluno.
